@@ -1,0 +1,33 @@
+@media (width > 1440px){
+    .container{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainbox{
+        width: 540px;
+        height: 332px;
+        flex-shrink: 0; 
+    }
+    .line{
+        width: 196px;
+        height: 1px;
+        flex-shrink: 0;
+    }
+    p, span{
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 4.086px;
+    }
+    h2{
+        width: 444px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: -0.3px;
+    }
+}
